@@ -736,6 +736,7 @@ decisions = {
 			has_landed_title = k_ostrogoths
 			NOT = { has_global_flag = claim_italia }
 			NOT = { has_global_flag = gothic_empire }
+			NOT = { has_global_flag = theodoric_won_italy_invasion }
 		}
 		
 		allow = {
