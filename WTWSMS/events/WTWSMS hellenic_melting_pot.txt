@@ -22,17 +22,19 @@ province_event = {
 		OR = {
 			AND = {
 			owner = { # Hellenic arameans
-				culture_group = byzantine = yes
+				culture_group = byzantine
 					}	
 			culture = aramean
+			religion = hellenic_pagan
 			}
 			AND = {
 			owner = { # Hellenic Persians
-				culture_group = byzantine = yes
+				culture_group = byzantine 
 					}
 			culture = persian
+			religion = hellenic_pagan
 			}
-		religion = hellenic_pagan
+		}
 		county = {
 			is_feudal = yes
 		}
@@ -51,7 +53,6 @@ province_event = {
 	immediate = {
 		set_province_flag = melting_pot_target
 		}
-	}
 }
 
 
@@ -68,7 +69,7 @@ province_event = {
 		owner = {
 			religion = hellenic_pagan
 			is_feudal = yes
-				culture_group = byzantine = yes
+				culture_group = byzantine
 			religion = ROOT
 		}
 		religion = hellenic_pagan
@@ -271,7 +272,7 @@ province_event = {
 		owner = {
 			religion = hellenic_pagan
 			is_feudal = yes
-				culture_group = byzantine = yes
+				culture_group = byzantine
 			religion = ROOT
 		}
 		religion = hellenic_pagan
