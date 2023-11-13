@@ -943,4 +943,67 @@ decisions = {
 		narrative_event = { id = hist.34 }
 		}
 	}
+		adopt_roman_court_practices_franks = {
+		is_high_prio = yes
+		ai_check_interval = 18
+		potential = {
+		culture = old_frankish
+		liege = { has_romance_culture_trigger = yes }
+		}
+		allow = {
+		learning = 10
+		prestige = 200
+		}
+		effect = {
+		prestige = -200
+		culture = romano_frank
+		any_courtier = {
+		limit = { culture = old_frankish }
+		culture = romano_frank
+			}
+		}
+	}
+		adopt_roman_court_practices_visigoths_ostrogoths = {
+		is_high_prio = yes
+		ai_check_interval = 18
+		potential = {
+		OR = {
+		culture = visigothic
+		culture = ostrogothic
+		}
+		liege = { has_romance_culture_trigger = yes }
+		}
+		allow = {
+		learning = 10
+		prestige = 200
+		}
+		effect = {
+		prestige = -200
+		culture = romano_gothic
+		any_courtier = {
+		limit = { OR = { culture = visigothic culture = ostrogothic } }
+		culture = romano_gothic
+			}
+		}
+	}
+		adopt_roman_court_practices_vandals = {
+		is_high_prio = yes
+		ai_check_interval = 18
+		potential = {
+		culture = vandalic
+		liege = { has_romance_culture_trigger = yes }
+		}
+		allow = {
+		learning = 10
+		prestige = 200
+		}
+		effect = {
+		prestige = -200
+		culture = romano_vandalic
+		any_courtier = {
+		limit = { culture = vandalic }
+		culture = romano_vandalic
+			}
+		}
+	}
 }
