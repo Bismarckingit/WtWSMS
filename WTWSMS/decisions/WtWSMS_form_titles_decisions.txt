@@ -970,6 +970,7 @@ decisions = {
 		OR = {
 		culture = visigothic
 		culture = ostrogothic
+		culture = crimean_gothic
 		}
 		liege = { has_romance_culture_trigger = yes }
 		}
@@ -981,7 +982,7 @@ decisions = {
 		prestige = -200
 		culture = romano_gothic
 		any_courtier = {
-		limit = { OR = { culture = visigothic culture = ostrogothic } }
+		limit = { OR = { culture = crimean_gothic culture = visigothic culture = ostrogothic } }
 		culture = romano_gothic
 			}
 		}
