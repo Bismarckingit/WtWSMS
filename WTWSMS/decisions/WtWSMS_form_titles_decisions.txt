@@ -76,31 +76,6 @@ decisions = {
 			}
 			spawn_unit = {
 				owner = THIS
-				leader = THIS
-				province = capital_scope
-				home = ROOT
-				troops = {
-					archers = { 5000 5000 }
-					light_infantry = { 7500 7500 }
-					heavy_infantry = { 5000 5000 }
-					light_cavalry = { 2500 2500 }
-				}
-				attrition = 0
-			}
-			spawn_unit = {
-				owner = THIS
-				province = capital_scope
-				home = ROOT
-				troops = {
-					archers = { 5000 5000 }
-					light_infantry = { 7500 7500 }
-					heavy_infantry = { 5000 5000 }
-					light_cavalry = { 2500 2500 }
-				}
-				attrition = 0
-			}
-			spawn_unit = {
-				owner = THIS
 				province = capital_scope
 				home = ROOT
 				troops = {
