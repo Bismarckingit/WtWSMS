@@ -8,10 +8,12 @@ law_groups = {
 	high_tribal_organization = {
 		law_type = realm
 	}
+	dominate_principate = {
+		law_type = realm
+	}
 }
 
 laws = {
-
 	# STABILITY
 	
 	stability_0 = { # Very low stability
@@ -1164,5 +1166,92 @@ laws = {
 				revoke_law = high_tribal_organization_4
 			}
 		}
+	}
+	dominate_principate_0 = {
+	group = dominate_principate
+	
+		feudal_opinion = -75
+		city_opinion = -50
+		temple_opinion = -50
+		demesne_size = 10
+		
+		allow = {
+		    always = no
+		}
+		
+		potential = {
+			holder_scope = {
+				government = bureaucratic_government
+			}
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+		effect = {
+			hidden_tooltip = {
+				revoke_law = dominate_principate_1
+				revoke_law = dominate_principate_2
+			}
+		}
+		global_tax_modifier = -0.75
+		
+	}
+	dominate_principate_1 = {
+	group = dominate_principate
+	
+		feudal_opinion = 15
+		city_opinion = 15
+		temple_opinion = 15
+		vassal_limit = 20
+		demesne_size = -5
+			allow = {
+		    always = no
+		}
+		
+		potential = {
+			holder_scope = {
+				government = bureaucratic_government
+			}
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+		effect = {
+			hidden_tooltip = {
+				revoke_law = dominate_principate_0
+				revoke_law = dominate_principate_2
+			}
+		}
+		global_tax_modifier = 0.5
+	}
+	dominate_principate_2 = {
+		group = dominate_principate
+		
+		feudal_opinion = 15
+		city_opinion = 15
+		temple_opinion = 15
+		vassal_limit = 20
+		demesne_size = 5
+			allow = {
+		    always = no
+		}
+				potential = {
+			holder_scope = {
+				government = bureaucratic_government
+			}
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+		effect = {
+			hidden_tooltip = {
+				revoke_law = dominate_principate_0
+				revoke_law = dominate_principate_1
+			}
+		}
+		global_tax_modifier = 0.5
 	}
 }

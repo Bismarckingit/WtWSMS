@@ -124,6 +124,14 @@ high_tribal_organization_1_desc;Chiefs have limited power over their vassals.;Le
 high_tribal_organization_2_desc;The power of vassals and liege chiefs are somewhat balanced.;La répartition des pouvoirs entre les vassaux et leur chef est relativement équilibrée.;Die Macht von Vasallen und Häuptlingen ist einigermaßen ausgeglichen.;;El poder de los vasallos y el de los señores feudales están equilibrados.;;;;;;;;;x
 high_tribal_organization_3_desc;Chiefs are gaining in power over their vassals.;Les chefs gagnent de l'influence sur leurs vassaux.;Die Macht der Häuptlinge über ihre Vasallen nimmt zu.;;Los jefes están ganando poder sobre sus vasallos.;;;;;;;;;x
 high_tribal_organization_4_desc;Chiefs have control over their vassals, with laws similar to that of feudal lords.;Les chefs ont le contrôle de leurs vassaux avec des lois comparables à celles des seigneurs féodaux.;Häuptlinge kontrollieren ihre Vasallen mit Gesetzen, die jenen der feudalen Fürsten gleichen.;;Los jefes tienen control sobre sus vasallos, con leyes parecidas a las de los señores feudales.;;;;;;;;;x
+dominate_principate;Roman Government Structure;;;;;;;;;x
+dominate_principate_desc;The Roman Government across the centuries has taken a variety of forms, some more effective than others. This legal structure must be addressed by the emperor wisely, as proper imperial management can be the difference between a golden age for the empire and its final death.;;;;;;;;;x
+dominate_principate_0;Dominate;;;;;;;;;x
+dominate_principate_0_desc;The Roman Dominate was a series of legal reforms enacted after the 3rd Century Crisis by Emperor Diocletian, greatly expanding the power of the central government and emperor to the blatant expense of the administration, accelerating the decline of the west.;;;;;;;;;x
+dominate_principate_1;Principate;;;;;;;;;x
+dominate_principate_1_desc;The Principate was the initial legal status of the Roman Empire, maintaining many of the old republican traditions of the Res Publica, while granting much authority to the emperor. Most of the day-to-day administration was handled by the Senate in this period.;;;;;;;;;x
+dominate_principate_2;Theme System;;;;;;;;;x
+dominate_principate_2_desc;The Theme System was a series of reforms enacted by the late Eastern Roman Empire. These laws would form the backbone of the state for centuries to come.;;;;;;;;;x
 #### Minor Titles;;;;;;;;;;;;;;x
 title_il_caesar;Caesar;César;;;César;;;;;;;;;x
 title_il_caesar_desc;Caesar was a title usually bestowed upon a designated heir and then retained upon ascension.;César était un titre habituellement accordé à un héritier désigné, puis conservé à l'ascension;;;César era un título generalmente otorgado a un heredero designado y luego retenido en la ascensión.;;;;;;;;;x

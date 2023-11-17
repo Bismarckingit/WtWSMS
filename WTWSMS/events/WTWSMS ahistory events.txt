@@ -1012,3 +1012,108 @@ narrative_event = {
 		}
 	}
 }
+narrative_event = {
+	id = ahistorical_wtwsms.19
+	title = ahistorical_wtwsms.19.name
+	picture = GFX_evt_victory_arch_byzantine
+	only_rulers = yes
+	only_independent = yes
+	desc = {
+		trigger = {
+			has_landed_title = e_wre
+		}
+		text = ahistorical_wtwsms.19.desc.a
+	}
+	desc = {
+		trigger = {
+			NOT = { has_landed_title = e_wre }
+		}
+		text = ahistorical_wtwsms.19.desc.b
+	}
+
+	trigger = {
+		ROOT = {
+			NOT = { age = 16 }
+			has_landed_title = e_wre
+			NOT = { character = 96054 }# Romulus
+		}
+		NOT = { has_character_flag = regency_wre }
+		}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		set_character_flag = regency_wre
+	}
+	
+	option = {
+		name = OK # To expand later, roman instability continues
+		trigger = {
+			has_landed_title = e_wre
+		}
+		prestige = -500
+		e_wre = {
+		add_law = stability_0
+		}
+	}
+	option = {
+		name = OK # To expand/look into options with WRE
+		trigger = {
+			NOT = { has_landed_title = e_wre }
+		}
+	}
+}
+narrative_event = {
+	id = ahistorical_wtwsms.20
+	title = ahistorical_wtwsms.20.name
+	picture = GFX_evt_victory_arch_byzantine
+	only_rulers = yes
+	only_independent = yes
+	desc = {
+		trigger = {
+			has_landed_title = e_byzantium
+		}
+		text = ahistorical_wtwsms.20.desc.a
+	}
+	desc = {
+		trigger = {
+			NOT = { has_landed_title = e_byzantium }
+		}
+		text = ahistorical_wtwsms.20.desc.b
+	}
+
+	trigger = {
+		ROOT = {
+			NOT = { age = 16 }
+			has_landed_title = e_byzantium
+		}
+		NOT = { has_character_flag = regency_ere }
+		}
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		set_character_flag = regency_ere
+	}
+	
+	option = {
+		name = OK # To expand later, roman instability continues
+		trigger = {
+			has_landed_title = e_byzantium
+		}
+		prestige = -500
+		e_byzantium = {
+		add_law = stability_0
+		}
+	}
+	option = {
+		name = OK # To expand/look into options with WRE
+		trigger = {
+			NOT = { has_landed_title = e_byzantium }
+		}
+	}
+}

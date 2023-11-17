@@ -1816,4 +1816,65 @@ decisions = {
 			}
 		}
 	}
+	end_dominate = {
+	only_independent = yes
+	is_high_prio = yes
+			potential = {
+			has_romance_culture_trigger = yes
+			has_law = dominate_principate_0
+			OR = {
+				has_landed_title = e_byzantium
+				has_landed_title = e_wre
+				has_landed_title = e_roman_empire
+			}
+			age = 16
+			prisoner = no
+			NOT = { trait = incapable }
+		}
+		allow = {
+			has_law = succession_voting_power_1
+			has_law = centralization_0
+			has_law = stability_2
+			# Prestige
+			prestige = 5000
+		}
+		effect = {
+		prestige = -5000
+		add_law = dominate_principate_1
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	reestablish_dominate = {
+	only_independent = yes
+	is_high_prio = yes
+			potential = {
+			has_romance_culture_trigger = yes
+			has_law = dominate_principate_1
+			OR = {
+				has_landed_title = e_byzantium
+				has_landed_title = e_wre
+				has_landed_title = e_roman_empire
+			}
+			age = 16
+			prisoner = no
+			NOT = { trait = incapable }
+		}
+			allow = {
+			prestige = 5000
+			has_law = law_voting_power_0
+			has_law = stability_2
+			has_law = centralization_3
+			}
+			effect = {
+			prestige = -5000
+			add_law = dominate_principate_0
+			}
+			ai_will_do = {
+				factor = 1
+				}
+			}
+			
+			
 }

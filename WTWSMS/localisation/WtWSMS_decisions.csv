@@ -263,5 +263,9 @@ adopt_roman_court_practices_visigoths_ostrogoths;Adopt Roman Court Practices!;;;
 adopt_roman_court_practices_visigoths_ostrogoths_desc;Our liege belongs to the ancient courts of the Roman tradition, and to further advance in this realm, one must adopt these same court practices.;;;;;;;;;;;;;x
 adopt_roman_court_practices_vandals;Adopt Roman Court Practices!;;;;;;;;;;;;;x
 adopt_roman_court_practices_vandals_desc;Our liege belongs to the ancient courts of the Roman tradition, and to further advance in this realm, one must adopt these same court practices.;;;;;;;;;;;;;x
+end_dominate;End the Dominate;;;;;;;;;;;;;x
+end_dominate_desc;The Dominate established by Diocletian has been an utter disaster for the Roman Empire. Terrible administration after terrible administration has resulted from the centralizing reforms established in a vain attempt to avoid another Crisis like in the third century. The survival of the empire is predicated on restoring the old balance of the Principate.;;;;;;;;;;;;;x
+reestablish_dominate;Reestablish the Dominate;;;;;;;;;;;;;x
+reestablish_dominate_desc;The Dominate established by Diocletian, and undone by our forbears was an effective system, albeit a mismanaged one. Under your glorious guidance, surely this more centralized realm could be run quite effectively.;;;;;;;;;;;;;x
 ###### Misc tooltips;;;;;;;;;;;;x
 controls_acre_tiberias;Either you, or any vassal, must control the fringes of Upper Samaria (the counties of Acre and Tiberias) /n;Soit vous, ou un vassal, devez contrôler les franges de la Haute Samarie (les comtés d'Acre et de Tibériade) / n;;;O bien usted, o cualquier vasallo, debe controlar las franjas de Alta Samaria (los condados de Acre y Tiberias) /n;;;;;;;;;x
