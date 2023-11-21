@@ -1169,12 +1169,12 @@ laws = {
 	}
 	dominate_principate_0 = {
 	group = dominate_principate
-	
 		feudal_opinion = -75
 		city_opinion = -50
 		temple_opinion = -50
-		demesne_size = 10
-		
+		demesne_size = 15
+		castle_vassal_max_levy = 0.5
+		castle_vassal_min_levy = 0.5
 		allow = {
 		    always = no
 		}
@@ -1200,9 +1200,9 @@ laws = {
 	dominate_principate_1 = {
 	group = dominate_principate
 	
-		feudal_opinion = 15
-		city_opinion = 15
-		temple_opinion = 15
+		feudal_opinion = 20
+		city_opinion = 20
+		temple_opinion = 20
 		vassal_limit = 20
 		demesne_size = -5
 			allow = {
@@ -1224,11 +1224,12 @@ laws = {
 				revoke_law = dominate_principate_2
 			}
 		}
-		global_tax_modifier = 0.5
+		global_tax_modifier = 1
 	}
 	dominate_principate_2 = {
 		group = dominate_principate
-		
+		castle_vassal_max_levy = 0.75
+		castle_vassal_min_levy = 0.75
 		feudal_opinion = 15
 		city_opinion = 15
 		temple_opinion = 15
