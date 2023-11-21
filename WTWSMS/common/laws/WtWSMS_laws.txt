@@ -1169,7 +1169,8 @@ laws = {
 	}
 	dominate_principate_0 = {
 	group = dominate_principate
-		feudal_opinion = -75
+		vassal_limit = -40
+		feudal_opinion = -50
 		city_opinion = -50
 		temple_opinion = -50
 		demesne_size = 15

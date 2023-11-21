@@ -847,8 +847,13 @@ decisions = {
 			NOT = { has_character_flag = ave_me }
 		}
 		allow = {
+		OR = {
+		tier = king
+		AND = {
 		trait = ambitious
 		prestige = 300
+		}
+		}
 		}
 		effect = {
 		prestige = -150
