@@ -1121,7 +1121,8 @@ narrative_event = {
 # Adopt Romulus
 character_event = {
 	id = ahistorical_wtwsms.21
-	desc = ahistorical_wtwsms.21
+	title = ahistorical_wtwsms.21.name
+	desc = ahistorical_wtwsms.21.desc
 	picture = GFX_evt_monk
 	border = GFX_event_normal_frame_religion
 	
