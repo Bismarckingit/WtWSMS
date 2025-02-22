@@ -217,6 +217,7 @@ narrative_event = {
 		ROOT = {
 			has_landed_title = e_wre
 			character = 96054 # Romulus
+			dynasty = 10424222
 		}
 		NOT = { has_global_flag = romulus_wre }
 			c_55 = { # Odoacer
@@ -1115,5 +1116,65 @@ narrative_event = {
 		trigger = {
 			NOT = { has_landed_title = e_byzantium }
 		}
+	}
+}
+# Adopt Romulus
+character_event = {
+	id = ahistorical_wtwsms.21
+	desc = ahistorical_wtwsms.21
+	picture = GFX_evt_monk
+	border = GFX_event_normal_frame_religion
+	
+	only_playable = yes
+	only_independent = yes
+	min_age = 16
+	has_global_flag = historical_events_fall_of_rome
+	
+	trigger = {
+		character = 175110
+		NOT = { has_global_flag = adopted_romulus }
+		has_landed_title = e_wre
+		independent = yes
+		has_global_flag = nepos_return_italy
+		OR = {
+			NOT = { current_heir = { dynasty = ROOT } }
+			current_heir = { is_female = yes }
+		}
+		NOT = { trait = pregnant }
+		NOT = { any_spouse = { trait = pregnant } }
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	option = {
+		name = ZUSK24OP1
+		set_character_flag = adopted_romulus
+		c_96054 = {
+			dynasty = ROOT
+			religion = ROOT
+			culture = roman 
+		}
+		if = {
+			limit = {
+				ROOT = { is_female = yes }
+			}
+			new_character = {
+				set_mother = ROOT
+			}
+		}
+		else = {
+			new_character = {
+				set_father = ROOT
+			}
+		}
+		recalc_succession = yes
+	}
+
+	option = {
+		name = ZUSK22OP2
+		set_character_flag = adopted_romulus
+		ai_chance = { factor = 0 }
 	}
 }
