@@ -1133,7 +1133,7 @@ character_event = {
 	
 	trigger = {
 		character = 175110
-		NOT = { has_character_flag_flag = adopted_romulus }
+		NOT = { has_character_flag = adopted_romulus }
 		has_landed_title = e_wre
 		independent = yes
 		has_global_flag = nepos_return_italy
