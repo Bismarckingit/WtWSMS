@@ -1237,7 +1237,7 @@ laws = {
 			}
 		prestige = -5000
 		}
-		global_tax_modifier = 1
+		global_tax_modifier = 1.5
 	}
 	dominate_principate_2 = {
 		group = dominate_principate
@@ -1246,10 +1246,14 @@ laws = {
 		feudal_opinion = 15
 		city_opinion = 15
 		temple_opinion = 15
-		vassal_limit = 20
+		vassal_limit = 5
 		demesne_size = 5
 			allow = {
-		    always = no
+		    has_law = stability_2
+			has_law = aristocracy_plutocracy_4
+			has_law = centralization_2
+			has_law = tolerance_2
+			has_law = law_voting_power_1
 		}
 				potential = {
 			holder_scope = {

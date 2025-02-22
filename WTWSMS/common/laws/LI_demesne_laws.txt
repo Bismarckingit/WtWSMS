@@ -10,10 +10,10 @@ laws = {
 	tolerance_0 = {		#Tolerant
 		show_as_title = yes
 		group = religious_tolerance
-		
+		vassal_limit = 10
 		city_opinion = 10
 		church_opinion = -10
-		
+		feudal_opinion = 10
 		potential = {
 			temporary = no
 			holder_scope = {
@@ -186,7 +186,7 @@ laws = {
 		show_as_title = yes
 		group = religious_tolerance
 		default = yes
-		
+		vassal_limit = 5
 		potential = {
 			temporary = no
 			holder_scope = {
@@ -369,7 +369,7 @@ laws = {
 	tolerance_2 = { 	#Intolerant
 		show_as_title = yes
 		group = religious_tolerance
-		
+		feudal_opinion = 10
 		city_opinion = -10
 		temple_opinion = 10
 		
