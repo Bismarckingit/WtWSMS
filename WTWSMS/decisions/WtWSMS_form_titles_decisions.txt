@@ -912,7 +912,7 @@ decisions = {
 		NOT = { has_character_flag = ave_me_sole }
 		}
 		allow = {
-		trait = ambitous
+		trait = ambitious
 		prestige = 10000
 		wealth = 500
 		}
@@ -985,6 +985,130 @@ decisions = {
 		limit = { culture = vandalic }
 		culture = romano_vandalic
 			}
+		}
+	}
+		create_frankish_empire = {
+		is_high_prio = yes
+		ai_check_interval = 12
+		potential = {
+		culture = old_frankish
+		OR = { tier = king tier = EMPEROR }
+		e_france = { has_holder = no }
+		}
+		allow = {
+		has_landed_title = e_gaul
+		has_landed_title = k_franks
+		k_soissons = { has_holder = no }
+		}
+		effect = {
+			grant_title = e_france
+			destroy_landed_title = k_franks
+			prestige = 500
+			e_gaul = { 
+					any_direct_de_jure_vassal_title = {
+					de_jure_liege = e_france
+					}
+				destroy_landed_title = PREV
+				}
+			}
+		}
+		create_austrasia = {
+		is_high_prio = yes
+		ai_check_interval = 12
+		potential = {
+			OR = { has_landed_title = k_franks has_landed_title = e_france }
+			k_austrasia = { has_holder = no }
+			}
+		allow = {
+			completely_controls = k_germania_inferior
+			completely_controls = k_belgica
+			}
+		effect = {
+			prestige = 500
+			grant_title = k_austrasia
+			k_austrasia = { de_jure_liege = e_france }
+			k_germania_inferior = {
+				any_direct_de_jure_vassal_title = {
+					de_jure_liege = k_austrasia
+					}
+				destroy_landed_title = k_germania_inferior
+			}
+			k_belgica = {
+				any_direct_de_jure_vassal_title = {
+					de_jure_liege = k_austrasia
+					}
+				destroy_landed_title = k_belgica
+			}
+		}
+	}
+		create_neustria = {
+		is_high_prio = yes
+		ai_check_interval = 12
+		potential = {
+			OR = { has_landed_title = k_franks has_landed_title = e_france }
+			k_neustria = { has_holder = no }
+			}
+		allow = {
+			completely_controls = d_gallia
+			completely_controls = d_noviodunum
+			completely_controls = d_celtica
+			}
+		effect = {
+			prestige = 500
+			grant_title = k_neustria
+			destroy_landed_title = k_lugdunensis
+			k_neustria = { de_jure_liege = e_france }
+			d_gallia = { de_jure_liege = k_neustria }
+			d_noviodunum = { de_jure_liege = k_neustria }
+			d_celtica = { de_jure_liege = k_neustria }
+		}
+	}
+		expand_burgundy = {
+		is_high_prio = yes
+		ai_check_interval = 12
+		potential = {
+			OR = { has_landed_title = k_franks has_landed_title = e_france }
+			has_landed_title = k_maxima_sequanorum
+			NOT = { has_global_flag = expand_burgundy }
+			}
+		allow = {
+			completely_controls = d_lugdunum
+			completely_controls = d_narbonensis
+			completely_controls = d_sequii
+			completely_controls = d_alpes
+			}
+		effect = {
+			prestige = 500
+			set_global_flag = expand_burgundy
+			k_maxima_sequanorum = { de_jure_liege = e_france }
+			d_lugdunum = { de_jure_liege = k_maxima_sequanorum }
+			d_narbonensis = { de_jure_liege = k_maxima_sequanorum }
+			d_sequii = { de_jure_liege = k_maxima_sequanorum }
+			d_alpes = { de_jure_liege = k_maxima_sequanorum }
+		}
+	}
+		create_aquitaine = {
+		is_high_prio = yes
+		ai_check_interval = 12
+		potential = {
+			OR = { has_landed_title = k_franks has_landed_title = e_france }
+			k_aquitaine = { has_holder = no }
+			}
+		allow = {
+			completely_controls = d_toulouse
+			completely_controls = d_novempopulana
+			completely_controls = d_aquitanica
+			completely_controls = d_limonum
+			}
+		effect = {
+			prestige = 500
+			grant_title = k_aquitaine
+			destroy_landed_title = k_septem_provincae
+			k_aquitaine = { de_jure_liege = e_france }
+			d_toulouse = { de_jure_liege = k_aquitaine }
+			d_novempopulana = { de_jure_liege = k_aquitaine }
+			d_aquitanica = { de_jure_liege = k_aquitaine }
+			d_limonum = { de_jure_liege = k_aquitaine }
 		}
 	}
 }

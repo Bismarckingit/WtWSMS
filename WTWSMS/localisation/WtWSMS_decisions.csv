@@ -267,5 +267,15 @@ end_dominate;End the Dominate;;;;;;;;;;;;;x
 end_dominate_desc;The Dominate established by Diocletian has been an utter disaster for the Roman Empire. Terrible administration after terrible administration has resulted from the centralizing reforms established in a vain attempt to avoid another Crisis like in the third century. The survival of the empire is predicated on restoring the old balance of the Principate.;;;;;;;;;;;;;x
 reestablish_dominate;Reestablish the Dominate;;;;;;;;;;;;;x
 reestablish_dominate_desc;The Dominate established by Diocletian, and undone by our forbears was an effective system, albeit a mismanaged one. Under your glorious guidance, surely this more centralized realm could be run quite effectively.;;;;;;;;;;;;;x
+create_frankish_empire;Establish Frankish Gaul;;;;;;;;;;;;;x
+create_frankish_empire_desc;The Frankish domination of Gaul is now complete, and must be reflected in name and law. No longer shall the province of Gaul exist, but rather the Frankish Kingdom shall emerge, forevermore the legal owners of this land.;;;;;;;;;;;;;x
+create_austrasia;Create Austrasia;;;;;;;;;;;;;x
+create_austrasia_desc;One of the four primary Frankish kingdoms, the kingdom of Austrasia shall alter the territories of Gaul to more accurately reflect their new Frankish overlords.;;;;;;;;;;;;;x
+create_neustria;Create Neustria;;;;;;;;;;;;;x
+create_neustria_desc;One of the four primary Frankish kingdoms, the kingdom of Neustria shall alter the territories of Gaul to more accurately reflect their new Frankish overlords.;;;;;;;;;;;;;x
+expand_burgundy;Expand Burgundy.;;;;;;;;;;;;;x
+expand_burgundy_desc;The Kingdom of Burgundy may already exist, but it is one of the key four kingdoms of the Franks, and its borders and fealty arrangements must be changed to reflect that.;;;;;;;;;;;;;x
+create_aquitaine;Create Aquitaine;;;;;;;;;;;;;x
+create_aquitaine_desc;One of the four primary Frankish kingdoms, the kingdom of Aquitaine shall alter the territories of Gaul to more accurately reflect their new Frankish overlords.;;;;;;;;;;;;;x
 ###### Misc tooltips;;;;;;;;;;;;x
 controls_acre_tiberias;Either you, or any vassal, must control the fringes of Upper Samaria (the counties of Acre and Tiberias) /n;Soit vous, ou un vassal, devez contrôler les franges de la Haute Samarie (les comtés d'Acre et de Tibériade) / n;;;O bien usted, o cualquier vasallo, debe controlar las franjas de Alta Samaria (los condados de Acre y Tiberias) /n;;;;;;;;;x
