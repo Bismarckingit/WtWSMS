@@ -712,15 +712,18 @@ decisions = {
 			NOT = { has_global_flag = claim_italia }
 			NOT = { has_global_flag = gothic_empire }
 			NOT = { has_global_flag = theodoric_won_italy_invasion }
+			NOT = { has_character_flag = claim_italia }
 		}
 		
 		allow = {
 		year = 500
+		NOT = { has_global_flag = claim_italia }
 		}
 		
 		effect = {
-			character_event = { id = zusk_event.22 }
 			set_global_flag = claim_italia
+			set_character_flag = claim_italia 
+			character_event = { id = zusk_event.22 }
 		}
 		
 		ai_will_do = {
