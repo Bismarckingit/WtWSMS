@@ -277,5 +277,7 @@ expand_burgundy;Expand Burgundy.;;;;;;;;;;;;;x
 expand_burgundy_desc;The Kingdom of Burgundy may already exist, but it is one of the key four kingdoms of the Franks, and its borders and fealty arrangements must be changed to reflect that.;;;;;;;;;;;;;x
 create_aquitaine;Create Aquitaine;;;;;;;;;;;;;x
 create_aquitaine_desc;One of the four primary Frankish kingdoms, the kingdom of Aquitaine shall alter the territories of Gaul to more accurately reflect their new Frankish overlords.;;;;;;;;;;;;;x
+restore_gallia;Restore the Province of Gaul;;;;;;;;;;;;;x
+restore_gallia_desc;The province of Gaul has, in past years, fallen under foreign hands, the titles and lands of the province being divided in a manner separate from its old Roman administration. We must undo this travesty, and restore proper Roman civilization.;;;;;;;;;;;;;x
 ###### Misc tooltips;;;;;;;;;;;;x
 controls_acre_tiberias;Either you, or any vassal, must control the fringes of Upper Samaria (the counties of Acre and Tiberias) /n;Soit vous, ou un vassal, devez contrôler les franges de la Haute Samarie (les comtés d'Acre et de Tibériade) / n;;;O bien usted, o cualquier vasallo, debe controlar las franjas de Alta Samaria (los condados de Acre y Tiberias) /n;;;;;;;;;x
