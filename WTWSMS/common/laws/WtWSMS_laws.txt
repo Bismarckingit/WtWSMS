@@ -1272,4 +1272,53 @@ laws = {
 		}
 		global_tax_modifier = 0.5
 	}
+	dominate_principate_3 = {
+	group = dominate_principate
+		vassal_limit = -60
+		feudal_opinion = -100
+		city_opinion = -100
+		temple_opinion = 50
+		dynasty_opinion = 50
+		infidel_opinion = -500
+		demesne_size = 45
+		castle_vassal_max_levy = -1
+		castle_vassal_min_levy = -1
+		allow = {
+			OR = { holder_scope = { trait = lunatic } 
+					holder_scope = { trait = immortal } # you literally ARE A GOD
+					holder_scope = { religion = hellenic_pagan }
+					holder_scope = { religion = sethian }
+					holder_scope = { religion = latin_solar_pagan }
+					holder_scope = { religion = melchisedechianism }
+					holder_scope = { religion = valentinianism } 
+					holder_scope = { religion = priscillianism } }
+		 	has_law = law_voting_power_0
+			has_law = stability_2
+			has_law = centralization_4
+			has_law = tolerance_2
+			has_law = aristocracy_plutocracy_4
+			holder_scope = {
+			prestige = 5000
+			}
+		}
+		
+		potential = {
+			holder_scope = {
+				government = bureaucratic_government
+			}
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+		effect = {
+			hidden_tooltip = {
+				revoke_law = dominate_principate_1
+				revoke_law = dominate_principate_2
+			}
+		prestige = -5000
+		}
+		global_tax_modifier = -1.75
+		
+	}
 }
