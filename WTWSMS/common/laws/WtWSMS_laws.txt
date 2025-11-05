@@ -1289,6 +1289,7 @@ laws = {
 					holder_scope = { religion = hellenic_pagan }
 					holder_scope = { religion = sethian }
 					holder_scope = { religion = latin_solar_pagan }
+					holder_scope = { religion = latin_solar_pagan_reformed }
 					holder_scope = { religion = melchisedechianism }
 					holder_scope = { religion = valentinianism } 
 					holder_scope = { religion = priscillianism } }
