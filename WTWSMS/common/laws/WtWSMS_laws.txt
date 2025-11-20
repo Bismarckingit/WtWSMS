@@ -1201,8 +1201,8 @@ laws = {
 			}
 		prestige = -5000
 		}
-		global_tax_modifier = -0.75
-		
+		castle_vassal_tax_modifier = -0.75
+		city_vassal_tax_modifier = -0.75
 	}
 	dominate_principate_1 = {
 	group = dominate_principate
