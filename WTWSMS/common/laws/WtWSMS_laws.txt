@@ -1286,6 +1286,7 @@ laws = {
 		allow = {
 			OR = { holder_scope = { trait = lunatic } 
 					holder_scope = { trait = immortal } # you literally ARE A GOD
+					holder_scope = { trait = possessed } # I AM GOD
 					holder_scope = { religion = hellenic_pagan }
 					holder_scope = { religion = sethian }
 					holder_scope = { religion = latin_solar_pagan }
