@@ -1280,7 +1280,7 @@ laws = {
 		temple_opinion = 50
 		dynasty_opinion = 50
 		infidel_opinion = -500
-		demesne_size = 45
+		demesne_size = 60
 		castle_vassal_max_levy = -1
 		castle_vassal_min_levy = -1
 		allow = {
@@ -1317,6 +1317,7 @@ laws = {
 			hidden_tooltip = {
 				revoke_law = dominate_principate_1
 				revoke_law = dominate_principate_2
+				revoke_law = dominate_principate_0
 			}
 		prestige = -5000
 		}
