@@ -3513,6 +3513,7 @@ narrative_event = {
 		add_claim = e_gaul
 		add_claim = e_spain
 		add_claim = e_north_africa
+		add_claim = e_italy
 		e_wre = {
 		add_law = stability_0
 		add_law = succ_byzantine_elective
