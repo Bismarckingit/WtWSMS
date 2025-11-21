@@ -5906,7 +5906,8 @@ e_byzantium = {
 				holy_site = nicene
 				holy_site = docetic
 				holy_site = georgian_orthodox
-				
+				holy_site = latin_solar_pagan
+				holy_site = latin_solar_pagan_reformed				
 				turkish = "Kostantiniyye"
 				
 				b_constantinople = {
@@ -7078,7 +7079,8 @@ e_byzantium = {
 				noricroman = "Corinthus"
 				raetoroman = "Corinthus"
 				latin = "Corinthus"
-				
+				holy_site = latin_solar_pagan
+				holy_site = latin_solar_pagan_reformed				
 				b_corinth = {
 					roman = "Corinthus"
 					romano_british = "Corinthus"
@@ -10817,7 +10819,9 @@ e_byzantium = {
 
 				assyrian = "Tadmor"
 				aramean = "Tadmor"
-
+				holy_site = latin_solar_pagan
+				holy_site = latin_solar_pagan_reformed
+				
 				b_arak = {
 				    roman = Aracha
 				    romano_gallic = Aracha
@@ -63296,8 +63300,6 @@ e_africa = {
 				holy_site = african_solar_pagan
 				holy_site = african_solar_pagan_reformed
 				holy_site = msoura_pagan
-				holy_site = latin_solar_pagan
-				holy_site = latin_solar_pagan_reformed
 				holy_site = mandulis_pagan
 			
 				b_swarty = {
@@ -67850,7 +67852,8 @@ e_italy = {
 				romano_gallic = "Aquileia"
 				
 				holy_site = aquileian
-				
+				holy_site = latin_solar_pagan
+				holy_site = latin_solar_pagan_reformed
 				b_aquileia = {
 				}
 				b_udine = {
@@ -76050,8 +76053,6 @@ e_italy = {
 				holy_site = african_solar_pagan
 				holy_site = african_solar_pagan_reformed
 				holy_site = msoura_pagan
-				holy_site = latin_solar_pagan
-				holy_site = latin_solar_pagan_reformed
 				holy_site = mandulis_pagan
 				
 				b_trapani = {
@@ -80132,8 +80133,6 @@ e_north_africa = {
 				holy_site = african_solar_pagan
 				holy_site = african_solar_pagan_reformed
 				holy_site = msoura_pagan
-				holy_site = latin_solar_pagan
-				holy_site = latin_solar_pagan_reformed
 				holy_site = mandulis_pagan
 				holy_site = donatism
 			
@@ -83151,8 +83150,6 @@ e_north_africa = {
 				holy_site = african_solar_pagan
 				holy_site = african_solar_pagan_reformed
 				holy_site = msoura_pagan
-				holy_site = latin_solar_pagan
-				holy_site = latin_solar_pagan_reformed
 				holy_site = mandulis_pagan
 				
 				roman = "Leptis"
