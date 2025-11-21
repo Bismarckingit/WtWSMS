@@ -61121,7 +61121,7 @@ e_africa = {
 	color2={ 255 255 255 }
 	
 	capital = 843 # Marrakech
-	
+    punic = Chanani
 	manden = Zenaga
 	garamantian = Garamantes
 	tashellhit = Shilha
