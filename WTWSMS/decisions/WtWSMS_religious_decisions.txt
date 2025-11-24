@@ -743,8 +743,8 @@ decisions = {
 				trait = mystic
 				learning = 14
 			}
-			primary_title = { higher_tier_than = KING }
-			realm_size = 150
+			primary_title = { higher_tier_than = DUKE }
+			realm_size = 50
 		}
 		
 		effect = {
@@ -756,6 +756,8 @@ decisions = {
 			hidden_tooltip = {
 				k_melchisedechianism = {
 					grant_title = ROOT
+					copy_title_laws = PREV
+					add_law = succ_primogeniture
 				}
 				religion_authority = {
 					modifier = patriarchy_instituted
